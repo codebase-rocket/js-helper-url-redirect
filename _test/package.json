@@ -1,0 +1,23 @@
+{
+  "name": "lib-test",
+  "description": "Test Cases",
+  "version": "1.0.0",
+  "main": "test.js",
+  "keywords": [],
+  "private": true,
+  "license": "Private",
+  "author": {},
+  "contributors": [],
+  "bundleDependencies": false,
+  "dependencies": {
+    "aws-sdk": "latest",
+    "js-helper-utils": "npm:@codebase-rocket/js-helper-utils@^1.0.0",
+    "js-helper-debug": "npm:@codebase-rocket/js-helper-debug@^1.0.0",
+    "js-helper-time": "npm:@codebase-rocket/js-helper-time@^1.0.0",
+    "js-helper-crypto-nodejs": "npm:@codebase-rocket/js-helper-crypto-nodejs@^1.0.0",
+    "js-helper-instance": "npm:@codebase-rocket/js-helper-instance@^1.0.0",
+    "js-helper-aws-dynamodb": "npm:@codebase-rocket/js-helper-aws-dynamodb@^1.0.0",
+    "js-helper-url-redirector": "file:../"
+  },
+  "devDependencies": {}
+}
